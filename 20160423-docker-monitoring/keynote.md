@@ -1,6 +1,6 @@
 # 如何选择Docker监控
 
-![](./images/docker.svg)
+![](./images/docker.png)
 
 刘斌
 2016/4/24
@@ -16,7 +16,8 @@
 ![](images/qrcode-for-ci.jpg)
 
 **Cloud Insight，蓝海讯通**
-https://cloud.oneapm.com/
+
+*https://cloud.oneapm.com/*
 
 ## 为什么监控
 
@@ -92,7 +93,6 @@ redis2              0.07%               2.746 MB/64 MB      4.29%               
 
 ## Cgroups
 
-- 文件位置
 - CPU、内存、磁盘
 - `/sys/fs/cgroup/{memory,cpuacct,blkio}/system.slice/${docker ps --no-trunc}.scope`
 
@@ -236,6 +236,7 @@ rx_compressed  rx_fifo_errors  rx_over_errors    tx_carrier_errors  tx_fifo_erro
 - StatsD
 - collectd
 - *cAdvisor*
+- ... ...
 
 ##  StatsD
 
@@ -277,6 +278,7 @@ sudo docker run \
 - Influxdb
 - RRDTool
 - Graphite
+- ... ...
 
 ## 写入方式
 
@@ -364,7 +366,7 @@ https://github.com/monitoringartist/zabbix-docker-monitoring
 
 ## Prometheus
 
-![](./images/prometheus.svg)
+![](./images/prometheus-arch.png)
 
 - 一体化
 - 多维度
@@ -431,7 +433,7 @@ https://github.com/monitoringartist/zabbix-docker-monitoring
 - 混合监控
 - 报警功能
 
-## Cloud Insight Docker overview
+## Cloud Insight Docker Overview
 
 ![](./images/ci-snapshot-5.png)
 
