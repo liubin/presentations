@@ -64,18 +64,18 @@
 - 在容器内部监控
 - 在宿主机上监控
 
-## Docker监控基础
-
-- `docker stats`
-- Remote API
-- 伪文件系统
-
 ## Docker监控内容
 
 - CPU
 - memory usage
 - memory limit
 - network IO
+
+## Docker监控基础
+
+- `docker stats`
+- Remote API
+- 伪文件系统
 
 ## docker stats
 
@@ -347,8 +347,6 @@ https://github.com/monitoringartist/zabbix-docker-monitoring
 - 插件机制
 
 ## Graphite
-
-![](./images/graphite.png)
 
  - 存储数值型时序列数据
  - 根据请求对数据进行可视化（画图）
