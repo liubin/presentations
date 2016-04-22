@@ -134,9 +134,8 @@ total_pgfault 728281223
 
 ## Blkio
 
-- blkio.io_queued_recursive
-- blkio.io_service_time_recursive
-- blkio.io_wait_time_recursive
+- blkio.throttle.io_service_bytes
+- blkio.throttle.io_serviced
 
 ## 网络数据
 
@@ -453,7 +452,7 @@ https://github.com/monitoringartist/zabbix-docker-monitoring
 ![](./images/ci-snapshot-9.png)
 
 
-## Cloud Insight Intergrations
+## Cloud Insight Integrations
 
 ![](./images/ci-snapshot-10.png)
 
