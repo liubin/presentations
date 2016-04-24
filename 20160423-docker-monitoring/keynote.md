@@ -1,9 +1,9 @@
-# 如何选择Docker监控
+# 如何选择Docker监控方案
 
 ![](./images/docker.png)
 
 刘斌
-2016/4/24
+2016/4/23
 
 ## Agenda
 
@@ -22,7 +22,7 @@
 ## 为什么监控
 
 - 尽在掌握
-- 炸药桶
+- 抱着炸药桶睡觉
 
 ## 监控目的
 
@@ -64,7 +64,7 @@
 - 在容器内部监控
 - 在宿主机上监控
 
-## Docker监控内容
+## Docker监控指标项目
 
 - CPU
 - memory usage
@@ -122,9 +122,11 @@ total_pgfault 728281223
 ... ...
 ```
 
-## Memory
+## Memory指标含义
 
 ![](./images/docker-memory-stats.png)
+
+*http://docs-ci.oneapm.com/services_example/docker.html*
 
 ## CPU
 
@@ -139,9 +141,9 @@ total_pgfault 728281223
 
 ## 网络数据
 
-- 伪文件系统
 - iptables
 - 网络设备接口
+- 伪文件系统
 
 ## 数据源（veth device）
 
@@ -155,7 +157,7 @@ $ ip netns exec $CONTAINER_ID netstat -i
 ```
 
 
-## Docker容器网络信息-文件系统
+## Docker容器网络信息-net namespace
 
 ```bash
 $ CONTAINER_PID=`docker inspect -f '{{ .State.Pid }}' nginx `
