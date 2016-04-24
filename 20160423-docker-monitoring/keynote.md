@@ -434,36 +434,36 @@ https://github.com/monitoringartist/zabbix-docker-monitoring
 
 ## Cloud Insight Docker Overview
 
-![](./images/ci-snapshot-5.png)
+![](./images/ci-snapshot-docker-overview.png)
 
 ## Cloud Insight Graph
 
-![](./images/ci-snapshot-6.png)
+![](./images/ci-snapshot-edit-graph.png)
 
 ## Cloud Insight Share
 
-![](./images/ci-snapshot-7.png)
+![](./images/ci-snapshot-graph-share.png)
 
 ## Cloud Insight Event Stream
 
-![](./images/ci-snapshot-8.png)
+![](./images/ci-snapshot-event-stream.png)
 
 
 ## Cloud Insight Alert
 
-![](./images/ci-snapshot-9.png)
+![](./images/ci-snapshot-alert.png)
 
 
 ## Cloud Insight Integrations
 
-![](./images/ci-snapshot-10.png)
+![](./images/ci-snapshot-integrations.png)
 
 
 ## Cloud Insight Host Map
 
-![](./images/ci-snapshot-11.png)
-![](./images/ci-snapshot-12.png)
-![](./images/ci-snapshot-13.png)
+![](./images/ci-snapshot-hostmap-1.png)
+![](./images/ci-snapshot-hostmap-2.png)
+![](./images/ci-snapshot-hostmap-3.png)
 
 
 ## Sysdig
