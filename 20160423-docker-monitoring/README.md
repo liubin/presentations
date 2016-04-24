@@ -48,7 +48,7 @@
  - 微服务
  - 集群
 - 全方位
- - Host（VM） > Services > Containers > Apps
+ - Host（VM） + Services + Containers + Apps
 
 ## Docker监控内容
 
@@ -503,7 +503,7 @@ https://github.com/monitoringartist/zabbix-docker-monitoring
 - 标签机制
 - 集群管理软件的集成
 - 通过API打通
-- 一体化
+- Total解决方案
 
 ## 参考资料
 
