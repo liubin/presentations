@@ -1,7 +1,0 @@
-{
-  "name": "presentation-begin-opentsdb",
-  "version": "0.0.0",
-  "dependencies": {
-    "prism": "gh-pages"
-  }
-}
